@@ -18,7 +18,6 @@ class UserFS(HttpUser):
             "accept": "text/plain",
             "X-TUI-ClientId": "b2c:ru",
             "X-User-Agent": "FUNSAN",
-            "cookie": "mindboxDeviceUUID=3939b2f7-a832-42a5-b531-00d7e8d481b9"
         }
         url = f"/api/service-api/f-s/fields/get-arrival?departureCityId=274286&whoRequest={UserFS.whoRequest}"
         url2 = f"/api/service-api/f-s/fields/get-available-checkins?arrivalCountryId=18803&departureCityId=274286&adultsCount=2"
