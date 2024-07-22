@@ -1,0 +1,10 @@
+urls = [
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-18&maxStartDate=2024-07-19&minNightsCount=6&maxNightsCount=8&adults=2&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-19&maxStartDate=2024-07-20&minNightsCount=6&maxNightsCount=7&adults=2&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-20&maxStartDate=2024-07-21&minNightsCount=6&maxNightsCount=8&adults=2&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-18&maxStartDate=2024-07-19&minNightsCount=6&maxNightsCount=7&adults=3&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-19&maxStartDate=2024-07-20&minNightsCount=6&maxNightsCount=7&adults=4&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-18&maxStartDate=2024-07-19&minNightsCount=6&maxNightsCount=7&adults=5&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-19&maxStartDate=2024-07-20&minNightsCount=6&maxNightsCount=7&adults=6&flightTypes=all&sort=recommendations_FS",
+        "/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-28&maxStartDate=2024-07-29&minNightsCount=6&maxNightsCount=7&adults=2&flightTypes=all&sort=recommendations_FS"
+    ]

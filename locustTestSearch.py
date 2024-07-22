@@ -3,9 +3,9 @@ import random
 # import ssl
 
 class UserFS(HttpUser): 
-    host = 'https://preprod.fstravel.com'
+    # host = 'https://preprod.fstravel.com'
    # host = 'https://stage-service-api.fstravel.com/'
-    # host = 'https://fstravel.com'
+    host = 'https://fstravel.com'
     wait_time = between(1, 3)
 
     # ssl_verify = False
@@ -30,8 +30,8 @@ class UserFS(HttpUser):
         #     self.min_nights_count = random.randint(2, 14)
         #     self.max_nights_count = random.randint(self.min_nights_count, min(self.min_nights_count + 7, 14))
 
-        min_nights_count = random.randint(2, 14)
-        max_nights_count = random.randint(min_nights_count, min(min_nights_count + 7, 14))
+        # min_nights_count = random.randint(2, 14)
+        # max_nights_count = random.randint(min_nights_count, min(min_nights_count + 7, 14))
 
         url = f"/api/service-api/f-s/search/get-by-country?departureCityId=274286&arrivalCountryId=18803&minStartDate=2024-07-11&maxStartDate=2024-07-11&minNightsCount={min_nights_count}&maxNightsCount={max_nights_count}&adults=2&flightTypes=all&sort=recommendations_FS"
 
