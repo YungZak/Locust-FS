@@ -1,5 +1,5 @@
 from locust import HttpUser, task, SequentialTaskSet, constant, events
-from s import s  # Предполагается, что `s` импортируется корректно из вашего модуля
+from full_url_test import full_url  # Предполагается, что `s` импортируется корректно из вашего модуля
 
 class SearchTasks(SequentialTaskSet):
     
@@ -32,7 +32,7 @@ class SearchTasks(SequentialTaskSet):
     
     @task(1)
     def search(self):
-        if self.index >= len(s):
+        if self.index >= len(full_url):
             self.interrupt()  # Завершение задачи после обработки всех ссылок
             return
         
@@ -42,7 +42,7 @@ class SearchTasks(SequentialTaskSet):
             "X-User-Agent": "FUNSAN",
         }
 
-        batch_urls = s[self.index:self.index + self.batch_size]
+        batch_urls = full_url[self.index:self.index + self.batch_size]
         self.index += self.batch_size
         self.execute_requests(batch_urls, headers)
 
