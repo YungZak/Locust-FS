@@ -1,2 +1,2 @@
 # Locust-FS
-Stress test FunSun
+stress test FSO

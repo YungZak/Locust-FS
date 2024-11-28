@@ -1,0 +1,45 @@
+{
+    "departureCity": "001b0000-ac11-0242-5ff7-08d908f2ccd4",
+    "arrival": {
+        "type": "country",
+        "id": "001b0000-ac11-0242-e567-08d908ef9c71"
+    },
+    "providers": [
+        "anex",
+        "bg",
+        "intourist",
+        "fun_sun"
+    ],
+    "tours": [],
+    "hotels": [
+        "00170000-ac11-0242-9d0d-08d99490d1c0"
+    ],
+    "dates": [
+        {
+            "startDate": "2024-11-28",
+            "endDate": "2024-11-30",
+            "daysOfWeek": []
+        }
+    ],
+    "nights": [
+        7
+    ],
+    "mealTypes": [],
+    "accommodations": [
+        {
+            "adults": 2,
+            "children": 0
+        },
+        {
+            "adults": 2,
+            "children": 1
+        }
+    ],
+    "currency": "USD",
+    "hotelOnly": false,
+    "parsingInterval": {
+        "from": "2024-11-26T00:00:00+03:00",
+        "to": "2024-11-28T00:00:00+03:00"
+    },
+    "testMode": false
+}
