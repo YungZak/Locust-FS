@@ -1,0 +1,59 @@
+{
+    "departureCountry": {
+        "id": "001b0000-ac11-0242-cb7b-08d908efa03d",
+        "name": "Russia"
+    },
+    "departureCity": {
+        "id": "001b0000-ac11-0242-5ff7-08d908f2ccd4",
+        "name": "Moscow"
+    },
+    "arrivalCountry": {
+        "id": "001b0000-ac11-0242-e567-08d908ef9c71",
+        "name": "UAE"
+    },
+    "arrivalRegion": null,
+    "providers": [
+        "bg",
+        "fun_sun"
+    ],
+    "tours": [],
+    "hotels": [
+        {
+            "id": "00210000-ac11-0242-13d5-08d9845b248a",
+            "name": "Ajman Beach Hotel"
+        },
+        {
+            "id": "00210000-ac11-0242-267e-08d9845b29b7",
+            "name": "Ajman Saray A Luxury Collection Resort"
+        },
+        {
+            "id": "00170000-ac11-0242-9d0d-08d99490d1c0",
+            "name": "Ajman Hotel"
+        }
+    ],
+    "hotelsStars": [],
+    "dates": [
+        {
+            "startDate": "2024-12-02",
+            "endDate": "2024-12-08",
+            "daysOfWeek": []
+        },
+        {
+            "startDate": "2024-11-28",
+            "endDate": "2024-12-01",
+            "daysOfWeek": []
+        }
+    ],
+    "nights": [
+        8,
+        7,
+        14
+    ],
+    "mealTypes": [],
+    "formulas": [
+        "Package"
+    ],
+    "accommodation": "DBL",
+    "currency": "USD",
+    "hotelOnly": false
+}
